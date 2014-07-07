@@ -18,5 +18,5 @@ sub config {
     return $config;
 }
 
-# コメント追加
+
 1;

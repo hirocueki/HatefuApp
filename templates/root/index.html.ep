@@ -6,25 +6,8 @@
 <form method="post" action="/">
   <div class="form-group">
     <label for="tag">TAG</label>
-    <input type="text" class="form-control" id="tag" name="tag" placeholder="Enter TAG" />
+    <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter Tag" />
+    <input type="text" value="200" class="form-control" id="threshold" name="threshold" placeholder="Enter Threshold" />
   </div>
   <button type="submit" class="btn btn-default">ハテフ!</button>
 </form>
-
-
-<table class="table table-striped table-bordered table-hover">
-  <thead>
-    <tr>
-      <th>タイトル</th>
-      <th>はてブ数</th>
-    </tr>
-  </thead>
-  <tbody>
-% for my $entry (@$entries) {
-      <tr>
-        <td><a href="<%= $entry->{url} %>" target="_blank"><%= $entry->{title} %></a></td>
-        <td><%= $entry->{users} %></td>
-      </tr>
-% }
-  </tbody>
-</table>

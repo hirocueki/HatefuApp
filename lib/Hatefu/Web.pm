@@ -8,6 +8,8 @@ sub startup {
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
 
+  $self->secrets(['hirocueki.hatefu.app']);
+
   # Router
   my $r = $self->routes;
 
@@ -15,7 +17,7 @@ sub startup {
   # http://b.hatena.ne.jp/keyword/%E6%9D%B1%E8%8A%9D?sort=popular&threshold=20&mode=rss
   $r->namespaces([qw/Hatefu::Web::Controller/]);
   $r->get('/')->to('root#index');
-  $r->post('/')->to('root#index');
+  $r->post('/')->to('root#result');
 }
 
 1;
