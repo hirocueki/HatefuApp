@@ -1,0 +1,203 @@
+[Fri Jul  4 18:20:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 18:20:04 2014] [debug] GET "/update".
+[Fri Jul  4 18:20:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Jul  4 18:20:04 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Jul  4 18:20:04 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:20:04 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:20:04 2014] [debug] 404 Not Found (0.024762s, 40.384/s).
+[Fri Jul  4 18:20:05 2014] [debug] GET "/".
+[Fri Jul  4 18:20:05 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:20:05 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Jul  4 18:20:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 18:20:05 2014] [debug] 200 OK (0.004058s, 246.427/s).
+[Fri Jul  4 18:20:05 2014] [debug] GET "/".
+[Fri Jul  4 18:20:05 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:20:05 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Jul  4 18:20:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Jul  4 18:20:05 2014] [debug] 200 OK (0.001621s, 616.903/s).
+[Fri Jul  4 18:36:28 2014] [debug] GET "/".
+[Fri Jul  4 18:36:28 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:36:28 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Jul  4 18:36:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Jul  4 18:36:28 2014] [debug] 200 OK (0.001557s, 642.261/s).
+[Fri Jul  4 18:36:31 2014] [debug] GET "/".
+[Fri Jul  4 18:36:31 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:36:31 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Jul  4 18:36:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Jul  4 18:36:31 2014] [debug] 200 OK (0.001525s, 655.738/s).
+[Fri Jul  4 18:36:35 2014] [debug] GET "/".
+[Fri Jul  4 18:36:35 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:36:35 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Jul  4 18:36:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Jul  4 18:36:35 2014] [debug] 200 OK (0.001766s, 566.251/s).
+[Fri Jul  4 18:36:46 2014] [debug] GET "/".
+[Fri Jul  4 18:36:46 2014] [debug] Routing to controller "Hatefu::Web::Example" and action "welcome".
+[Fri Jul  4 18:36:46 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Jul  4 18:36:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Jul  4 18:36:46 2014] [debug] 200 OK (0.001695s, 589.971/s).
+[Fri Jul  4 18:37:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 18:37:33 2014] [debug] GET "/".
+[Fri Jul  4 18:37:33 2014] [debug] Controller "Hatefu::Web::Root" does not exist.
+[Fri Jul  4 18:37:33 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 18:37:33 2014] [error] Global symbol "$msg" requires explicit package name at template root/index.html.ep line 3, <DATA> line 231.
+Global symbol "$entries" requires explicit package name at template root/index.html.ep line 23, <DATA> line 231.
+1: % layout 'default';
+2: % title 'ようこそハテフへ';
+3: <h2><%= $msg %></h2>
+4: 
+5: 
+6: <form method="post" action="/">
+7:   <div class="form-group">
+8:     <label for="tag">TAG</label>
+
+[Fri Jul  4 18:37:33 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 18:37:33 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 18:37:33 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:37:33 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:37:33 2014] [debug] 500 Internal Server Error (0.038594s, 25.911/s).
+[Fri Jul  4 18:40:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 18:40:18 2014] [debug] GET "/".
+[Fri Jul  4 18:40:18 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 18:40:18 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 18:40:18 2014] [error] Not an ARRAY reference at template root/index.html.ep line 23, <DATA> line 231.
+18:       <th>URL</th>
+19:       <th>USERS</th>
+20:     </tr>
+21:   </thead>
+22:   <tbody>
+23: % for my $entry (@$entries) {
+24:       <tr>
+25:         <td><a href="<%= $entry->{url} %>" target="_blank"><%= $entry->{url} %></a></td>
+26:         <td><%= $entry->{users} %></td>
+27:       </tr>
+28: % }
+
+[Fri Jul  4 18:40:18 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 18:40:18 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 18:40:18 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:40:18 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:40:18 2014] [debug] 500 Internal Server Error (0.047853s, 20.897/s).
+[Fri Jul  4 18:41:53 2014] [debug] GET "/".
+[Fri Jul  4 18:41:53 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 18:41:53 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Jul  4 18:41:53 2014] [error] Not an ARRAY reference at template root/index.html.ep line 23, <DATA> line 231.
+18:       <th>URL</th>
+19:       <th>USERS</th>
+20:     </tr>
+21:   </thead>
+22:   <tbody>
+23: % for my $entry (@$entries) {
+24:       <tr>
+25:         <td><a href="<%= $entry->{url} %>" target="_blank"><%= $entry->{url} %></a></td>
+26:         <td><%= $entry->{users} %></td>
+27:       </tr>
+28: % }
+
+[Fri Jul  4 18:41:53 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 18:41:53 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 18:41:53 2014] [debug] Rendering cached inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:41:53 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:41:53 2014] [debug] 500 Internal Server Error (0.013338s, 74.974/s).
+[Fri Jul  4 18:42:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 18:42:49 2014] [debug] GET "/".
+[Fri Jul  4 18:42:49 2014] [error] syntax error at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Web/Controller/Root.pm line 23, near "@entries $e"
+Compilation failed in require at (eval 273) line 1.
+
+[Fri Jul  4 18:42:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 18:42:49 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 18:42:49 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:42:49 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:42:49 2014] [debug] 500 Internal Server Error (0.048127s, 20.778/s).
+[Fri Jul  4 18:43:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 18:43:18 2014] [debug] GET "/".
+[Fri Jul  4 18:43:18 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 18:43:18 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 18:43:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 18:43:18 2014] [debug] 200 OK (0.022597s, 44.254/s).
+[Fri Jul  4 18:43:30 2014] [debug] POST "/".
+[Fri Jul  4 18:43:30 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Jul  4 18:43:30 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Jul  4 18:43:30 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 18:43:30 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 18:43:30 2014] [debug] 404 Not Found (0.027602s, 36.229/s).
+[Fri Jul  4 19:00:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:00:44 2014] [debug] POST "/".
+[Fri Jul  4 19:00:44 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:00:44 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:00:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:00:44 2014] [debug] 200 OK (0.026733s, 37.407/s).
+[Fri Jul  4 19:43:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:43:39 2014] [debug] GET "/".
+[Fri Jul  4 19:43:39 2014] [error] syntax error at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Model/Feed.pm line 35, near "@entries $item"
+Compilation failed in require at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Web/Controller/Root.pm line 7.
+BEGIN failed--compilation aborted at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Web/Controller/Root.pm line 7.
+Compilation failed in require at (eval 273) line 1.
+
+[Fri Jul  4 19:43:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 19:43:39 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 19:43:39 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 19:43:39 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 19:43:39 2014] [debug] 500 Internal Server Error (0.090285s, 11.076/s).
+[Fri Jul  4 19:46:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:46:05 2014] [debug] GET "/".
+[Fri Jul  4 19:46:05 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:46:06 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:46:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:46:06 2014] [debug] 200 OK (0.727910s, 1.374/s).
+[Fri Jul  4 19:47:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:47:55 2014] [debug] GET "/".
+[Fri Jul  4 19:47:55 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:47:55 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:47:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:47:55 2014] [debug] 200 OK (0.364245s, 2.745/s).
+[Fri Jul  4 19:49:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:49:36 2014] [debug] GET "/".
+[Fri Jul  4 19:49:36 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:49:36 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:49:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:49:36 2014] [debug] 200 OK (0.355368s, 2.814/s).
+[Fri Jul  4 19:49:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:49:54 2014] [debug] GET "/".
+[Fri Jul  4 19:49:54 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:49:54 2014] [error] Can't call method "text_content" on an undefined value at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Model/Feed.pm line 32.
+
+[Fri Jul  4 19:49:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 19:49:54 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 19:49:54 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 19:49:54 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 19:49:54 2014] [debug] 500 Internal Server Error (0.347605s, 2.877/s).
+[Fri Jul  4 19:50:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:50:37 2014] [debug] GET "/".
+[Fri Jul  4 19:50:37 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:50:37 2014] [error] Can't call method "text_content" on an undefined value at /Users/hirocueki/Desktop/projects/hatefu_web/lib/Hatefu/Model/Feed.pm line 33.
+
+[Fri Jul  4 19:50:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jul  4 19:50:37 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jul  4 19:50:37 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Fri Jul  4 19:50:37 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Jul  4 19:50:37 2014] [debug] 500 Internal Server Error (0.344246s, 2.905/s).
+[Fri Jul  4 19:51:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:51:26 2014] [debug] GET "/".
+[Fri Jul  4 19:51:26 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:51:27 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:51:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:51:27 2014] [debug] 200 OK (0.331116s, 3.020/s).
+[Fri Jul  4 19:51:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:51:53 2014] [debug] GET "/".
+[Fri Jul  4 19:51:53 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:51:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:52:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:52:19 2014] [debug] GET "/".
+[Fri Jul  4 19:52:19 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:52:19 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:52:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:52:20 2014] [debug] 200 OK (0.309428s, 3.232/s).
+[Fri Jul  4 19:53:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:53:33 2014] [debug] GET "/".
+[Fri Jul  4 19:53:33 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:53:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jul  4 19:53:37 2014] [debug] GET "/".
+[Fri Jul  4 19:53:37 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Jul  4 19:53:37 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Jul  4 19:53:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jul  4 19:53:37 2014] [debug] 200 OK (0.349969s, 2.857/s).
