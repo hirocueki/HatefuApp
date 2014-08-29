@@ -10,7 +10,6 @@ sub entries{
 
   my ($self, $param) = @_;
 
-  # タグ【programming】、500ブクマ以上
   my $link = 'http://b.hatena.ne.jp/search/tag?safe=on&q='.$param->{keyword}.'&users='.$param->{threshold};
 
   my $uri = URI->new($link);

@@ -660,3 +660,63 @@ Compilation failed in require at (eval 273) line 1.
 [Mon Jul  7 14:48:58 2014] [debug] Rendering cached template "root/result.html.ep".
 [Mon Jul  7 14:48:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
 [Mon Jul  7 14:48:58 2014] [debug] 200 OK (1.649397s, 0.606/s).
+[Mon Jul  7 18:27:30 2014] [debug] GET "/".
+[Mon Jul  7 18:27:30 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Mon Jul  7 18:27:30 2014] [debug] Rendering template "root/index.html.ep".
+[Mon Jul  7 18:27:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  7 18:27:30 2014] [debug] 200 OK (0.157955s, 6.331/s).
+[Mon Jul  7 18:27:36 2014] [debug] POST "/".
+[Mon Jul  7 18:27:36 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Mon Jul  7 18:27:37 2014] [debug] Rendering template "root/result.html.ep".
+[Mon Jul  7 18:27:37 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  7 18:27:37 2014] [debug] 200 OK (0.981005s, 1.019/s).
+[Fri Aug 29 16:01:34 2014] [debug] GET "/".
+[Fri Aug 29 16:01:34 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Aug 29 16:01:34 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Aug 29 16:01:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 29 16:01:34 2014] [debug] 200 OK (0.175898s, 5.685/s).
+[Fri Aug 29 16:01:58 2014] [debug] POST "/".
+[Fri Aug 29 16:01:58 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Fri Aug 29 16:02:05 2014] [debug] Rendering template "root/result.html.ep".
+[Fri Aug 29 16:02:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 29 16:02:05 2014] [debug] 200 OK (7.041968s, 0.142/s).
+[Fri Aug 29 16:11:24 2014] [debug] GET "/".
+[Fri Aug 29 16:11:24 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Aug 29 16:11:24 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Aug 29 16:11:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 29 16:11:24 2014] [debug] 200 OK (0.093038s, 10.748/s).
+[Fri Aug 29 16:15:14 2014] [debug] GET "/".
+[Fri Aug 29 16:15:14 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Aug 29 16:15:14 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Aug 29 16:15:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 29 16:15:14 2014] [debug] 200 OK (0.142057s, 7.039/s).
+[Fri Aug 29 16:15:24 2014] [debug] POST "/".
+[Fri Aug 29 16:15:24 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Fri Aug 29 16:15:29 2014] [debug] Rendering template "root/result.html.ep".
+[Fri Aug 29 16:15:29 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 29 16:15:29 2014] [debug] 200 OK (4.464078s, 0.224/s).
+[Fri Aug 29 16:17:38 2014] [debug] GET "/".
+[Fri Aug 29 16:17:38 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Aug 29 16:17:38 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Aug 29 16:17:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 29 16:17:38 2014] [debug] 200 OK (0.106966s, 9.349/s).
+[Fri Aug 29 16:17:46 2014] [debug] POST "/".
+[Fri Aug 29 16:17:46 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Fri Aug 29 16:17:50 2014] [debug] Rendering template "root/result.html.ep".
+[Fri Aug 29 16:17:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 29 16:17:50 2014] [debug] 200 OK (3.286335s, 0.304/s).
+[Fri Aug 29 16:20:47 2014] [debug] GET "/".
+[Fri Aug 29 16:20:47 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "index".
+[Fri Aug 29 16:20:47 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Aug 29 16:20:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 29 16:20:47 2014] [debug] 200 OK (0.098450s, 10.157/s).
+[Fri Aug 29 16:20:50 2014] [debug] POST "/".
+[Fri Aug 29 16:20:50 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Fri Aug 29 16:20:51 2014] [debug] Rendering template "root/result.html.ep".
+[Fri Aug 29 16:20:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 29 16:20:51 2014] [debug] 200 OK (0.938197s, 1.066/s).
+[Fri Aug 29 16:21:00 2014] [debug] POST "/".
+[Fri Aug 29 16:21:00 2014] [debug] Routing to controller "Hatefu::Web::Controller::Root" and action "result".
+[Fri Aug 29 16:21:03 2014] [debug] Rendering cached template "root/result.html.ep".
+[Fri Aug 29 16:21:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 29 16:21:03 2014] [debug] 200 OK (2.741744s, 0.365/s).

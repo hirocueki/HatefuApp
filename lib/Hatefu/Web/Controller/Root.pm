@@ -11,11 +11,7 @@ use FormValidator::Lite;
 sub index {
   my $self = shift;
 
-  my $entries = undef;
-
-  $self->stash->{entries} = $entries;
-  $self->render( msg => 'ハテフ(Hatena Bookmark Filter)' );
-
+  $self->render( msg => 'ハテフ(Hatena Bookmark Filter)', entries => undef );
 }
 
 sub result{
